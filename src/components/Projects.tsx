@@ -15,26 +15,26 @@ export default function Projects() {
       gradient: 'from-cyan-500 to-blue-500'
     },
     {
-      title: 'Sentiment Analysis Engine',
-      description: 'NLP-powered system for analyzing customer feedback with 94% accuracy using transformers',
-      tags: ['NLP', 'Transformers', 'TensorFlow'],
+      title: 'DataSpark – Global Electronics Insights',
+      description: 'Performed EDA on Global Electronics datasets to improve decisions and business performance.',
+      tags: ['EDA', 'Transformers', 'TensorFlow'],
       gradient: 'from-purple-500 to-pink-500'
     },
     {
-      title: 'Predictive Maintenance AI',
-      description: 'Machine learning solution predicting equipment failures with time-series analysis',
+      title: 'Used Car Price Prediction (CarDekho)',
+      description: 'Built a machine learning model and web app for CarDekho to predict used car prices from historical data for customers and sales teams.',
       tags: ['Time Series', 'Scikit-learn', 'MLOps'],
       gradient: 'from-green-500 to-teal-500'
     },
     {
-      title: 'Object Detection System',
-      description: 'Real-time object detection using YOLO and deployed on edge devices',
+      title: 'Microsoft Cybersecurity Incident Classification',
+      description: 'Built a Microsoft GUIDE-based model to classify cybersecurity incidents (TP/BP/FP), optimizing macro-F1, precision, and recall for SOC decision support.',
       tags: ['Computer Vision', 'YOLO', 'Edge AI'],
       gradient: 'from-orange-500 to-red-500'
     },
     {
-      title: 'Recommendation Engine',
-      description: 'Collaborative filtering system with deep learning for personalized recommendations',
+      title: 'Plant Disease Detection',
+      description: 'Built a Streamlit app using a CNN model to detect and classify plant leaf diseases from uploaded images.',
       tags: ['Recommender Systems', 'Deep Learning', 'Python'],
       gradient: 'from-indigo-500 to-purple-500'
     },
