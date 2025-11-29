@@ -76,9 +76,9 @@ export default function Contact() {
   };
 
   const socialLinks = [
-    { icon: Mail, label: 'Email', href: 'mailto:harini@example.com' },
-    { icon: Github, label: 'GitHub', href: 'https://github.com' },
-    { icon: Linkedin, label: 'LinkedIn', href: 'https://linkedin.com' }
+    { icon: Mail, label: 'Email', href: 'mailto:vigneshs9899@gmail.com' },
+    { icon: Github, label: 'GitHub', href: 'https://github.com/Harini-001' },
+    { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/harini-k-358aa8246/' }
   ];
 
   return (
