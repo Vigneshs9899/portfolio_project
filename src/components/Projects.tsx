@@ -9,9 +9,9 @@ export default function Projects() {
 
   const projects = [
     {
-      title: 'Neural Style Transfer',
-      description: 'Deep learning model that applies artistic styles to images using CNNs and PyTorch',
-      tags: ['PyTorch', 'Computer Vision', 'Deep Learning'],
+      title: 'YouTube Data Harvesting \& Warehousing',
+      description: 'Built a Streamlit app to collect, store, and analyze YouTube channel data using Google API and SQL databases.',
+      tags: ['Streamlit', 'Google API', 'SQL'],
       gradient: 'from-cyan-500 to-blue-500'
     },
     {
