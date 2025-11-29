@@ -39,8 +39,8 @@ export default function Projects() {
       gradient: 'from-indigo-500 to-purple-500'
     },
     {
-      title: 'Medical Image Classifier',
-      description: 'CNN-based diagnostic tool for medical imaging with 96% accuracy on test data',
+      title: 'Low-Light Image Enhancement using Deep Learning',
+      description: 'DCGAN, Zero-DCE, CycleGAN, MIRNet, PyTorch, TensorFlow, OpenCV, NumPy, Scikit-image, TensorBoard',
       tags: ['Healthcare', 'CNNs', 'TensorFlow'],
       gradient: 'from-pink-500 to-rose-500'
     }
