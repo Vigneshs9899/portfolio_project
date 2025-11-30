@@ -9,24 +9,24 @@ export default function Blog() {
 
   const posts = [
     {
-      title: 'Understanding Transformer Architecture',
+      title: 'Automating ML Model Development: OperationalML Approach',
       excerpt: 'A deep dive into the attention mechanism that revolutionized NLP and beyond',
       date: '2024-10-15',
-      category: 'Deep Learning',
+      category: 'IEEE',
       readTime: '8 min read'
     },
     {
-      title: 'MLOps Best Practices for 2024',
+      title: 'Transformer-based Language Identification',
       excerpt: 'Essential strategies for deploying and monitoring machine learning models in production',
       date: '2024-10-08',
-      category: 'MLOps',
+      category: 'IEEE',
       readTime: '6 min read'
     },
     {
-      title: 'Computer Vision in Healthcare',
+      title: 'Food Image Classification',
       excerpt: 'How AI is transforming medical imaging and diagnostic accuracy',
       date: '2024-09-28',
-      category: 'Computer Vision',
+      category: "ICICSCS'23",
       readTime: '10 min read'
     }
   ];

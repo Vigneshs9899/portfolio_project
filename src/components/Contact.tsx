@@ -36,7 +36,7 @@ export default function Contact() {
     if (!formData.subject.trim()) {
       newErrors.subject = 'Subject is required';
     }
-
+    
     if (!formData.message.trim()) {
       newErrors.message = 'Message is required';
     } else if (formData.message.trim().length < 10) {
@@ -47,7 +47,7 @@ export default function Contact() {
     return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: { preventDefault: () => void; }) => {
   e.preventDefault();
 
   if (!validateForm()) return;
@@ -91,7 +91,7 @@ export default function Contact() {
   };
 
   const socialLinks = [
-    { icon: Mail, label: 'Email', href: 'mailto:vigneshs9899@gmail.com' },
+    { icon: Mail, label: 'Email', href: 'mailto:harinikannan001@gmail.com' },
     { icon: Github, label: 'GitHub', href: 'https://github.com/Harini-001' },
     { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/harini-k-358aa8246/' }
   ];
