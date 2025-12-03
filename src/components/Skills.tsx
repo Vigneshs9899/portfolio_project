@@ -20,9 +20,9 @@ export default function Skills() {
       category: 'Programming',
       skills: [
         { name: 'Python', level: 95 },
-        { name: 'JavaScript/TypeScript', level: 80 },
+        { name: 'JavaScript', level: 80 },
         { name: 'SQL', level: 85 },
-        { name: 'R', level: 75 }
+        { name: 'HTML, CSS', level: 75 }
       ]
     },
     {
